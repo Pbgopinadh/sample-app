@@ -9,4 +9,4 @@ cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 systemctl restart nginx
 
-echo("if you are seeing this then the installation of backend is successful.")
+echo ("if you are seeing this then the installation of backend is successful.")

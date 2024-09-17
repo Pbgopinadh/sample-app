@@ -12,10 +12,8 @@ cd /app
 unzip /tmp/backend.zip
 cd /app 
 npm install  
-
 chmod -R 775 /app
 chown -R expense:expense /app
-
 dnf install mysql-server -y
 mysql -h 3.92.176.39 -uroot -pExpenseApp@1 < /app/schema/backend.sql 
 systemctl daemon-reload
